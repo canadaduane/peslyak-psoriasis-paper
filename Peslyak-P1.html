@@ -7,6 +7,12 @@
 
 	<title>Peslyak Psoriasis Paper</title>
 	<link rel="stylesheet" type="text/css" href="docco.css">
+
+	<style>
+	dt { margin-top: 1em; }
+	i, .note, .note:visited { font-style: normal; color: #F00; font-weight: bold; }
+	a.note, a.note:visited { text-decoration: underline; }
+	</style>
 </head>
 
 <body>
@@ -32,15 +38,65 @@
 		</tr>
 	</thead>
 	<tbody>
+		<tr id='introduction'>
+			<td class="docs"></td>
+			<td class="code" id="intro1">
+				<h2>Introduction</h2>
+			</td>
+		</tr>
 		<tr id='section-1'>
 			<td class="docs">
+			<dt><i>Baker 2000</i>: <a href="http://www.amazon.com/Recent-Advances-Psoriasis-Immune-System/dp/1860941206/ref=sr_1_1?ie=UTF8&qid=1326141641&sr=8-1">Recent Advances in Psoriasis: The Role of the Immune System</a></dt>
+			<dd>The book introduces the hypothesis that "psoriasis is a disease of abnormal keratinocyte proliferation induced by T cells." <a href="http://en.wikipedia.org/wiki/Keratinocyte">Keratinocytes</a> are the most common type of skin cell.</dd>
+			<dt><i>Iizuka 2004</i>: <a href="http://www.ncbi.nlm.nih.gov/pubmed/15265521">Psoriatic architecture constructed by epidermal remodeling</a></dt>
+			<dd>The paper points to "epidermal hyperproliferation" as the direct cause of skin lesions (red, flaky, etc.) and identifies that when skin cells grow too quickly, they detach from the matrix material that connects skin tissue together, causing early cell death ("anoikis", i.e. a form of apoptosis or programmed cell death).</dd>
+			<dt><i>Weinstein 1985</i>: <a href="http://www.ncbi.nlm.nih.gov/pubmed/4067329">Cell kinetic basis for pathophysiology of psoriasis</a></dt>
+			<dd>The paper's abstract notes that psoriatic cells go from a normal 311 hour lifecycle to 36 hours, and that the cell density of plaques is twice the number per millimeter. When combined, these factors correspond to a 28-fold increase in skin cell production.</dd>
 			</td>
-			<td class="code">
-				<h2>Introduction</h2>
-				<p id="intro1">The self-renewal of the epidermis is a normal process: New cells are born in the basal layer; they mature, vary, and migrate toward the outside and form the external cornified layer; then, they die away and exfoliate. The standard lifecycle of an epidermal cell for areas of skin with average thickness (the renewal period) is 20-25 days. Psoriasis accelerates self-renewal&mdash;cells live only 4-10 days (Baker 2000, Iizuka 2004, Weinstein 1985). Cells migrating outside have no time to differentiate and they aren't quite functional. Psoriatic plaques have a red shade&mdash;they are tender, covered by white flakes due to the accelerated loss of cells, and they are much thicker.</p>
-				<p id="intro2">Psoriasis isn't contagious. There are various types of psoriasis (codes are given according to ICD-10): <a href="http://apps.who.int/classifications/icd10/browse/2010/en#/L40.0">vulgaris or plaque (L40.0)</a>, <a href="http://apps.who.int/classifications/icd10/browse/2010/en#/L40.8">flexural or inverse (L40.83-4)</a>, <a href="http://apps.who.int/classifications/icd10/browse/2010/en#/L40.8">erythrodermic (L40.85)</a>, <a href="http://apps.who.int/classifications/icd10/browse/2010/en#/L40.1">pustular (L40.1-3, L40.82)</a>, <a href="http://apps.who.int/classifications/icd10/browse/2010/en#/L40.4">guttate (L40.4)</a>. Chronic plaque psoriasis (CPs) is the most frequent type (more than 80% of total number of cases). Up to 15% of psoriatics also suffer from <a href="http://apps.who.int/classifications/icd10/browse/2010/en#/L40.5">psoriatic arthritis (L40.5)</a>. Psoriasis is present in about 2-3% of the human population (120-180 million people). 4-6 million people are newly diagnosed with psoriasis every year. The disease can appear at birth or in extreme old age. Psoriasis is a chronic disease, so there are periods of aggravation and remission. Sometimes there appears to be no cause for periods of remission, and sometimes aggravation can be decreased as a result of treatment. Serious psoriasis can result in disability. The onset and progress of psoriasis is similar in men and women. African Americans, Indians, Chinese and Japanese suffer from psoriasis less frequently, however, and Eskimos don't suffer from psoriasis at all (Piruzian 2006, Giardina 2004).</p>
-				<p id="intro3">Psoriasis is registered in the "Online Mendelian Inheritance in Man" as <a href="http://omim.org/entry/177900">OMIM*177900</a>. Psoriasis is a disease with a hereditary predisposition: concordance between uniovular twins is 70%. If one parent suffers from psoriasis, children are diagnosed with the disease in 15-25% of cases; if both parents suffer from psoriasis children are diagnosed with the disease in more than 40-60% of cases. The interrelation of <a href="http://omim.org/entry/142840#0001">allele HLA-Cw*0602</a> (chromosome 6p21) and psoriasis of the first type (characterized by its early beginning) has been demonstrated (Weisenseel 2002). This allele is found in more than 60% of psoriatics (not more than 15% of healthy people). Locuses of other chromosomes have weaker interrelations (Piruzian 2006, Giardina 2004). Psoriasis never manifests only in the presence of genetic defects&mdash;external exposure is necessary for the beginning and maintenance of psoriasis. Infections, skin traumas, stress, reaction to medications, climatic changes and other causes can provoke the onset of psoriasis or its aggravation (Molochkov 2007, Bos 2005, Fry 2007b, Gudjonsson 2004).</p>
-				<p id="intro4">Accelerated proliferation of keratinocytes (skin cells) is likely to be caused by erroneous actions of various antibacterial protection mechanisms of the skin. The influence of beta-hemolitic streptococci (first of all causing tonsillar infections) on the initialization and aggravation of psoriasis is avowed (Molochkov 2007, Khairutdinov 2007, Baker 2006a, Baker 2003, Baker 2000, Fry 2007b, Gudjonsson 2004). There is no uniform point of view on etiology and pathogenesis of psoriasis. Researchers offer various models (Baltabaev 2005, Korotkii & Peslyak 2005, Khardikova 2000, Baker 2000, Baker 2006b, Bos 2005, Danilenko 2008, Gudjonsson 2004, Gyurcsovics 2003, Iizuka 2004, Lowes 2007, Majewski 2003, Nestle 2005b, Nickoloff 2000, Sabat 2007).</p>
+			<td class="code" id="intro1">
+				The self-renewal of the epidermis is a normal process: New cells are born in the basal layer; they mature, vary, and migrate toward the outside and form the external cornified layer; then, they die away and exfoliate. The standard lifecycle of an epidermal cell for areas of skin with average thickness (the renewal period) is 20-25 days. Psoriasis accelerates self-renewal&mdash;cells live only 4-10 days (<a class="note" href="http://www.amazon.com/Recent-Advances-Psoriasis-Immune-System/dp/1860941206/ref=sr_1_1?ie=UTF8&qid=1326141641&sr=8-1">Baker 2000</a>, <a class="note" href="http://www.ncbi.nlm.nih.gov/pubmed/15265521">Iizuka 2004</a>, <a class="note" href="http://www.ncbi.nlm.nih.gov/pubmed/4067329">Weinstein 1985</a>). Cells migrating outside have no time to differentiate and they aren't quite functional. Psoriatic plaques have a red shade&mdash;they are tender, covered by white flakes due to the accelerated loss of cells, and they are much thicker.
+			</td>
+		</tr>
+		<tr id="section-2"</tr>
+			<td class="docs">
+				<dt><i>Piruzian 2006</i>: <a href="http://www.ncbi.nlm.nih.gov/pubmed/16734342">The molecular genetics of psoriasis</a></dt>
+				<dd>Original paper is written in Russian. The author analyzes many genes that may contribute to Psoriasis and concludes it is "determined by a combination of certain genes [relating to the immune system] as well as by various environmental trigger factors."</dd>
+
+				<dt><i>Giardina 2004</i>: <a href="http://www.ncbi.nlm.nih.gov/pubmed/15180465">The psoriasis genetics as a model of complex disease</a></dt>
+				<dd>This paper was first to study the likelihood of psoriasis among human populations using statistical genetic analysis.</dd>
+			</td>
+			<td class="code" id="intro2">
+				Psoriasis isn't contagious. There are various types of psoriasis (codes are given according to ICD-10): <a href="http://apps.who.int/classifications/icd10/browse/2010/en#/L40.0">vulgaris or plaque (L40.0)</a>, <a href="http://apps.who.int/classifications/icd10/browse/2010/en#/L40.8">flexural or inverse (L40.83-4)</a>, <a href="http://apps.who.int/classifications/icd10/browse/2010/en#/L40.8">erythrodermic (L40.85)</a>, <a href="http://apps.who.int/classifications/icd10/browse/2010/en#/L40.1">pustular (L40.1-3, L40.82)</a>, <a href="http://apps.who.int/classifications/icd10/browse/2010/en#/L40.4">guttate (L40.4)</a>. Chronic plaque psoriasis (CPs) is the most frequent type (more than 80% of total number of cases). Up to 15% of psoriatics also suffer from <a href="http://apps.who.int/classifications/icd10/browse/2010/en#/L40.5">psoriatic arthritis (L40.5)</a>. Psoriasis is present in about 2-3% of the human population (120-180 million people). 4-6 million people are newly diagnosed with psoriasis every year. The disease can appear at birth or in extreme old age. Psoriasis is a chronic disease, so there are periods of aggravation and remission. Sometimes there appears to be no cause for periods of remission, and sometimes aggravation can be decreased as a result of treatment. Serious psoriasis can result in disability. The onset and progress of psoriasis is similar in men and women. African Americans, Indians, Chinese and Japanese suffer from psoriasis less frequently, however, and Eskimos don't suffer from psoriasis at all (<a class="note" href="http://www.ncbi.nlm.nih.gov/pubmed/16734342">Piruzian 2006</a>, <a class="note" href="http://www.ncbi.nlm.nih.gov/pubmed/15180465">Giardina 2004</a>).
+			</td>
+		</tr>
+		<tr id="section-2"</tr>
+			<td class="docs">
+				<dt><i>Uniovular Twins</i></dt>
+				<dd>Also known as <a href="http://en.wikipedia.org/wiki/Twin#Monozygotic_.28.22identical.22.29_twins">Monozygotic twins</a>. The significance of this concordance is that, since monozygotic twins have precisely the same genes, over a large population of twins we can tell what percentage of a disease is genetic and what percentage is environmental.</dd>
+
+				<dt><i>Weisenseel 2002</i>: <a href="http://www.ncbi.nlm.nih.gov/pubmed/12362037">Streptococcal infection distinguishes different types of psoriasis</a></dt>
+				<dd>Full paper <a href="http://jmg.bmj.com/content/39/10/767.full">here</a>. "Streptococcal infection is confined to a particular subtype of non-pustular psoriasis, which is defined by early onset (&lt; 40 years), a positive family history, and the HLA molecules HLA-Cw6, HLA-B13, or HLA-B57."</dd>
+			</td>
+			<td class="code" id="intro3">
+				Psoriasis is registered in the "Online Mendelian Inheritance in Man" as <a href="http://omim.org/entry/177900">OMIM*177900</a>. Psoriasis is a disease with a hereditary predisposition: concordance between <i>uniovular twins</i> is 70%. If one parent suffers from psoriasis, children are diagnosed with the disease in 15-25% of cases; if both parents suffer from psoriasis children are diagnosed with the disease in more than 40-60% of cases. The interrelation of <a href="http://omim.org/entry/142840#0001">allele HLA-Cw*0602</a> (chromosome 6p21) and psoriasis of the first type (characterized by its early beginning) has been demonstrated (<a class="note" href="http://www.ncbi.nlm.nih.gov/pubmed/12362037">Weisenseel 2002</a>). This allele is found in more than 60% of psoriatics (not more than 15% of healthy people). Locuses of other chromosomes have weaker interrelations (Piruzian 2006, Giardina 2004). Psoriasis never manifests only in the presence of genetic defects&mdash;external exposure is necessary for the beginning and maintenance of psoriasis. Infections, skin traumas, stress, reaction to medications, climatic changes and other causes can provoke the onset of psoriasis or its aggravation (Molochkov 2007, Bos 2005, Fry 2007b, Gudjonsson 2004).
+			</td>
+		</tr>
+		<tr id="section-2">
+			<td class="docs">
+				<dt><i>beta-hemolitic streptococci</i></dt>
+				<dd>A classification of streptococcus bacteria (it's a more specific variant of the bacteria that causes "strep throat"). The <a href="http://en.wikipedia.org/wiki/Streptococcus#Beta-hemolytic">wikipedia article</a> has a good explanation: basically, beta-hemolitic strep is known to be nasty not simply because of infection, but because its toxins seep into the body and wreak havoc on various organs and systems.</dd>
+
+				<dt><i>Molochkov 2007</i>: <a href="http://www.amazon.com/Psoriasis-Psoriatic-Arthritis-PSORIAZ-PSORIATIChESKIY/dp/5873173923/ref=sr_1_1?ie=UTF8&qid=1326145534&sr=8-1">Psoriasis and Psoriatic Arthritis</a></dt>
+				<dd>Original is in Russian. No English version appears to be available.</dd>
+
+				<dt><i>Khairutdinov 2007</i>: <a href="http://elibrary.ru/item.asp?id=9955704">Current views of immune mechanisms underlying the development of psoriasis</a></dt>
+				<dd>Interaction between antigen-presenting cells, T-lymphocytes, and endotelial cells of skin vessels in the development of psoriatic rash is discussed. Special attention is given to the role of cytokines, chemokines, adhesion molecules, and growth factors.</dd>
+
+				<dt><i>Baker 2006a</i>: <a href="http://www.ncbi.nlm.nih.gov/pubmed/16493599">Peptidoglycan and peptidoglycan-specific Th1 cells in psoriatic skin lesions</a></dt>
+				<dd></dd>
+			</td>
+			<td class="code" id="intro4">
+				Accelerated proliferation of keratinocytes (skin cells) is likely to be caused by erroneous actions of various antibacterial protection mechanisms of the skin. The influence of <i>beta-hemolitic streptococci</i> (first of all causing tonsillar infections) on the initialization and aggravation of psoriasis is avowed (<a class="note" href="http://www.amazon.com/Psoriasis-Psoriatic-Arthritis-PSORIAZ-PSORIATIChESKIY/dp/5873173923/ref=sr_1_1?ie=UTF8&qid=1326145534&sr=8-1">Molochkov 2007</a>, <a class="note" href="http://elibrary.ru/item.asp?id=9955704">Khairutdinov 2007</a>, <a class="note" href="http://www.ncbi.nlm.nih.gov/pubmed/16493599">Baker 2006a</a>, Baker 2003, Baker 2000, Fry 2007b, Gudjonsson 2004). There is no uniform point of view on etiology and pathogenesis of psoriasis. Researchers offer various models (Baltabaev 2005, Korotkii & Peslyak 2005, Khardikova 2000, Baker 2000, Baker 2006b, Bos 2005, Danilenko 2008, Gudjonsson 2004, Gyurcsovics 2003, Iizuka 2004, Lowes 2007, Majewski 2003, Nestle 2005b, Nickoloff 2000, Sabat 2007).
 			</td>
 		</tr>
 	</tbody>
