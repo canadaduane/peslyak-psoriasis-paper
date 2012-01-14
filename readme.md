@@ -11,3 +11,6 @@ I don't have a degree in microbiology. In fact, I'm not a biologist. I'm a softw
 
 ## Can I contribute? ##
 Of course! If you care about this subject and are self-motivated, feel free to open "issues" if I have something wrong, and I'll correct it. Or add to the wiki if you would like to elucidate some concept, and then I can link to the expanded topic.
+
+## How did this start? ##
+I had an illness in Dec 2011 that looked like Psoriasis. It turns out it was Pityriasis Rosea. I'm curious and like to try to understand whatever is around me, so I began investigating the literature on Psoriasis. This paper (by Mikhail Peslyak) was on arxiv.org and seemed like a great jumping-off point into the science of immunity and Psoriasis in particular.
